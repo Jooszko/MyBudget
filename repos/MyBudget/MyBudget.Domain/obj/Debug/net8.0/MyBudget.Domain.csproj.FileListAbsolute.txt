@@ -1,0 +1,11 @@
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\bin\Debug\net8.0\MyBudget.Domain.deps.json
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\bin\Debug\net8.0\MyBudget.Domain.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\bin\Debug\net8.0\MyBudget.Domain.pdb
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.AssemblyInfoInputs.cache
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.AssemblyInfo.cs
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\refint\MyBudget.Domain.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.pdb
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\ref\MyBudget.Domain.dll

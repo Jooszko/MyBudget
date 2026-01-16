@@ -1,0 +1,17 @@
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.AssemblyInfo.cs
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Infrastructure.deps.json
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Infrastructure.runtimeconfig.json
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Infrastructure.dll
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Infrastructure.pdb
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.dll
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\refint\MyBudget.Infrastructure.dll
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.pdb
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.genruntimeconfig.cache
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\ref\MyBudget.Infrastructure.dll
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Domain.dll
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Domain.pdb
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.4D388BEA.Up2Date
