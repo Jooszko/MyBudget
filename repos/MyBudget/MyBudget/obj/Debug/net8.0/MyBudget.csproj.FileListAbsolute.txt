@@ -149,3 +149,6 @@ C:\Users\DESKTOP\source\repos\MyBudget\MyBudget\bin\Debug\net8.0\MyBudget.Domain
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget\bin\Debug\net8.0\MyBudget.Domain.pdb
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget\obj\Debug\net8.0\MyBudget.sourcelink.json
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget\bin\Debug\net8.0\MyBudget.Application.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget\bin\Debug\net8.0\MyBudget.Application.pdb

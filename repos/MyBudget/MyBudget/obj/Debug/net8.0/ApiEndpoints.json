@@ -70,5 +70,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "MyBudget.Controllers.ExpensesController",
+    "Method": "GetAllExpenses",
+    "RelativePath": "api/Expenses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyBudget.Controllers.ExpensesController",
+    "Method": "AddExpense",
+    "RelativePath": "api/Expenses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MyBudget.Application.Dtos.CreateExpenseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -15,3 +15,6 @@ C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\ref\MyBud
 C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Domain.dll
 C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Domain.pdb
 C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.4D388BEA.Up2Date
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\obj\Debug\net8.0\MyBudget.Infrastructure.sourcelink.json
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Application.dll
+C:\Users\DESKTOP\source\repos\MyBudget\Infrastructure\bin\Debug\net8.0\MyBudget.Application.pdb

@@ -1,0 +1,12 @@
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\bin\Debug\net8.0\MyBudget.Application.deps.json
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\bin\Debug\net8.0\MyBudget.Application.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\bin\Debug\net8.0\MyBudget.Application.pdb
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.AssemblyInfoInputs.cache
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.AssemblyInfo.cs
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.csproj.CoreCompileInputs.cache
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.sourcelink.json
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\refint\MyBudget.Application.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.pdb
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\ref\MyBudget.Application.dll

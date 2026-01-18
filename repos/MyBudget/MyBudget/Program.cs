@@ -4,6 +4,7 @@ using MyBudget.Extensions;
 using MyBudget.Infrastructure.Data;
 using MyBudget.Services;
 using Microsoft.OpenApi.Models;
+using MyBudget.Infrastructure;
 
 namespace MyBudget
 {
@@ -46,6 +47,7 @@ namespace MyBudget
             builder.Services.AddControllers();
             builder.Services.AddIdentityServices(builder.Configuration);
             builder.Services.AddScoped<TokenService>();
+            builder.Services.AddInfrastructure();
 
 
             builder.Services.AddCors(opt =>
