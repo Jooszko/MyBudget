@@ -16,30 +16,32 @@ namespace MyBudget.Controllers
     public class ExpensesController : ControllerBase
     {
         private readonly IExpensesService _expensesService;
+        private readonly ICurrentUserService _currentUserService;
 
-        public ExpensesController(IExpensesService expensesService)
+        public ExpensesController(IExpensesService expensesService, ICurrentUserService currentUserService)
         {
             _expensesService = expensesService;
+            _currentUserService = currentUserService;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllExpenses()
         {
-            var userId = ReturnUserId();
+            var userId = _currentUserService.UserId;
             return Ok(await _expensesService.GetAllAsync(userId));
         }
 
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetExpenseById(Guid id)
         {
-            var userId = ReturnUserId();
+            var userId = _currentUserService.UserId;
             return Ok(await _expensesService.GetAsync(userId, id));
         }
 
         [HttpPost]
         public async Task<IActionResult> AddExpense(CreateExpenseDto dto)
         {
-            var userId = ReturnUserId();
+            var userId = _currentUserService.UserId;
             var created = await _expensesService.AddAsync(userId, dto);
 
             return CreatedAtAction(nameof(GetExpenseById), new { id = created.Id }, created);
@@ -48,19 +50,11 @@ namespace MyBudget.Controllers
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> DeleteExpense(Guid id)
         {
-            var userId = ReturnUserId();
+            var userId = _currentUserService.UserId;
             await _expensesService.DeleteAsync(userId, id);
             return NoContent();
         }
 
-        private Guid ReturnUserId()
-        {
-            var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (!Guid.TryParse(userIdString, out var userId))
-                throw new UnauthorizedAccessException();
-
-            return userId;
-        }
     }
 
 }

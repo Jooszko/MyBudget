@@ -9,3 +9,4 @@ C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\refint\MyBudget.Domain.dll
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.pdb
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\ref\MyBudget.Domain.dll
+C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.sourcelink.json
