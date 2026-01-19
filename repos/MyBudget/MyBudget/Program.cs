@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
 using MyBudget.Extensions;
 using MyBudget.Infrastructure.Data;
-using MyBudget.Services;
 using Microsoft.OpenApi.Models;
 using MyBudget.Infrastructure;
 

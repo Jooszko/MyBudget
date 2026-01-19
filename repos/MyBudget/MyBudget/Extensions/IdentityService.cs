@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using MyBudget.Infrastructure.Data;
 using MyBudget.Infrastructure.Identity;
-using MyBudget.Services;
 using System.Text;
 
 namespace MyBudget.Extensions

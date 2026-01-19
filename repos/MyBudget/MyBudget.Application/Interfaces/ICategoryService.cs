@@ -1,4 +1,4 @@
-﻿using MyBudget.Dtos.CategoryDtos;
+﻿using MyBudget.Application.Dtos.CategoryDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

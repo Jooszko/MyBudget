@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MyBudget.Application.Interfaces;
 using MyBudget.Dtos;
 using MyBudget.Infrastructure.Identity;
-using MyBudget.Services;
 using System.Security.Claims;
 
 namespace MyBudget.Controllers
@@ -16,70 +16,40 @@ namespace MyBudget.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly TokenService _tokenService;
+        private readonly IAccountService _accountService;
 
-        public AccountController(UserManager<AppUser> userManager, TokenService tokenService)
+        public AccountController(UserManager<AppUser> userManager, TokenService tokenService, IAccountService accountService)
         {
             _userManager = userManager;
             _tokenService = tokenService;
+            _accountService = accountService;
         }
 
         [AllowAnonymous]
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
-            var user = await _userManager.FindByEmailAsync(loginDto.Email);
-            if (user == null) return Unauthorized();
+            var result = await _accountService.LoginAsync(loginDto);
 
-            var result = await _userManager.CheckPasswordAsync(user, loginDto.Password);
-            if (!result) return Unauthorized();
-
-            return Ok(new UserDto
-            {
-                UserName = user.UserName,
-                Token = _tokenService.CreateToken(user)
-            });
+            return Ok(result);
         }
 
         [AllowAnonymous]
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
-            if (await _userManager.Users.AnyAsync(x => x.UserName == registerDto.UserName))
-                return BadRequest("Username is taken.");
+            var result = await _accountService.RegisterAsync(registerDto);
 
-            var user = new AppUser
-            {
-                Email = registerDto.Email,
-                UserName = registerDto.UserName,
-                Currency = registerDto.Currency,
-            };
-
-            var result = await _userManager.CreateAsync(user, registerDto.Password);
-
-            if (result.Succeeded)
-            {
-                return Ok(new UserDto
-                {
-                    UserName = user.UserName,
-                    Token = _tokenService.CreateToken(user)
-                });
-            }
-
-            return BadRequest("Problem with registering user");
+            return Ok(result);
         }
+
         [Authorize]
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser()
         {
             var email = User.FindFirstValue(ClaimTypes.Email);
-            var user = await _userManager.FindByEmailAsync(email);
-
-            return Ok(new UserDto
-            {
-                UserName = user.UserName,
-                Currency = user.Currency,
-                Token = _tokenService.CreateToken(user)
-            });
+            var result = await _accountService.GetCurrentUserAsync(email);
+            return Ok(result);
         }
     }
 }

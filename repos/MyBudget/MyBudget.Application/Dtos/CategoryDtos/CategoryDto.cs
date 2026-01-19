@@ -1,4 +1,4 @@
-﻿namespace MyBudget.Dtos.CategoryDtos
+﻿namespace MyBudget.Application.Dtos.CategoryDtos
 {
     public record CategoryDto
     (

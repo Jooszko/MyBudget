@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyBudget.Application.Dtos
+namespace MyBudget.Application.Dtos.ExpenseDtos
 {
-    public class CreateExpenseDto
+    public class UpdateExpenseDto
     {
-        public string CategoryName {  get; set; }
+        public string CategoryName { get; set; }
         public decimal Amount { get; set; }
         public DateTime Date { get; set; }
         public string? Note { get; set; }

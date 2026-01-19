@@ -15,6 +15,7 @@ namespace MyBudget.Infrastructure
         {
             services.AddScoped<IExpensesService, ExpensesService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IAccountService, AccountService>();
             return services;
         }
     }

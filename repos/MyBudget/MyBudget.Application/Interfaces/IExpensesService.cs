@@ -1,4 +1,4 @@
-﻿using MyBudget.Application.Dtos;
+﻿using MyBudget.Application.Dtos.ExpenseDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +11,8 @@ namespace MyBudget.Application.Interfaces
     {
         Task<IReadOnlyList<ExpenseDto>> GetAllAsync(Guid userId);
         Task<ExpenseDto> AddAsync(Guid userId, CreateExpenseDto createExpenseDto);
+        Task<ExpenseDto> GetAsync(Guid userId, Guid expenseId);
+        Task DeleteAsync(Guid userId, Guid expenseId);
+        Task<ExpenseDto> UpdateAsync(Guid userId, Guid expenseId, UpdateExpenseDto dto);
     }
 }

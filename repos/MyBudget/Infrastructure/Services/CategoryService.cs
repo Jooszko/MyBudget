@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyBudget.Application.Common;
+using MyBudget.Application.Dtos.CategoryDtos;
+using MyBudget.Application.Dtos.ExpenseDtos;
 using MyBudget.Application.Interfaces;
 using MyBudget.Domain.Models;
-using MyBudget.Dtos.CategoryDtos;
 using MyBudget.Infrastructure.Data;
 using System;
 using System.Collections.Generic;

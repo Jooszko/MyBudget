@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyBudget.Application.Dtos
+namespace MyBudget.Application.Dtos.ExpenseDtos
 {
     public record ExpenseDto(
         Guid Id,
