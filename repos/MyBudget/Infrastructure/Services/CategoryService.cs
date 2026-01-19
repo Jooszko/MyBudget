@@ -22,25 +22,36 @@ namespace MyBudget.Infrastructure.Services
         }
         public async Task<CategoryDto> AddAsync(Guid userId, CreateCategoryDto categoryDto)
         {
-            var exist = await _context.Categories.FirstOrDefaultAsync(c=>c.Name == categoryDto.Name && c.UserId == userId);
+            var name = categoryDto.Name.Trim();
+
+            var exist = await _context.Categories
+                .FirstOrDefaultAsync(c => c.UserId == userId && c.Name == name);
+
             if (exist != null)
-            {
                 throw new ConflictException("Category already exists.");
-            }
+
             var newCategory = new Category
             {
                 Id = Guid.NewGuid(),
                 UserId = userId,
-                Name = categoryDto.Name,
+                Name = name
             };
-            await _context.Categories.AddAsync(newCategory);
+
+            _context.Categories.Add(newCategory);
             await _context.SaveChangesAsync();
-            return new CategoryDto
-            (
-                newCategory.Id,
-                userId,
-                categoryDto.Name
-            );
+
+            return new CategoryDto(newCategory.Id, userId, name);
+        }
+
+        public async Task DeleteAsync(Guid userId, Guid categoryId)
+        {
+            var toDelete = await _context.Categories.FirstOrDefaultAsync(c=>c.UserId == userId && c.Id == categoryId);
+            if (toDelete == null)
+            {
+                throw new NotFoundException("Category not found");
+            }
+            _context.Categories.Remove(toDelete);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<IReadOnlyList<CategoryDto>> GetAllAsync(Guid userId)
@@ -54,6 +65,41 @@ namespace MyBudget.Infrastructure.Services
                     c.Name
                 ))
                 .ToListAsync();
+        }
+
+        public async Task<CategoryDto> GetAsync(Guid userId, Guid categoryId)
+        {
+            var category = await _context.Categories.FirstOrDefaultAsync(c => c.UserId == userId && c.Id == categoryId);
+            if(category == null)
+                throw new NotFoundException("Category not found");
+
+            return new CategoryDto(
+                    category.Id,
+                    category.UserId,
+                    category.Name
+                );
+        }
+
+        public async Task<CategoryDto> UpdateAsync(Guid userId, Guid categoryId, UpdateCategoryDto dto)
+        {
+            var category = await _context.Categories
+                .FirstOrDefaultAsync(c => c.UserId == userId && c.Id == categoryId);
+
+            if (category == null)
+                throw new NotFoundException("Category not found");
+
+            var newName = dto.CategoryName.Trim();
+
+            var exists = await _context.Categories
+                .AnyAsync(c => c.UserId == userId && c.Name == newName && c.Id != categoryId);
+
+            if (exists)
+                throw new ConflictException("Category already exists.");
+
+            category.Name = newName;
+            await _context.SaveChangesAsync();
+
+            return new CategoryDto(category.Id, category.UserId, category.Name);
         }
     }
 }

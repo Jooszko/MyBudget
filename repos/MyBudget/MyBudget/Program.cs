@@ -1,9 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
-using MyBudget.Extensions;
-using MyBudget.Infrastructure.Data;
 using Microsoft.OpenApi.Models;
+using MyBudget.Application.Interfaces;
+using MyBudget.Extensions;
 using MyBudget.Infrastructure;
+using MyBudget.Infrastructure.Data;
+using MyBudget.Services;
 
 namespace MyBudget
 {
@@ -46,6 +48,8 @@ namespace MyBudget
             builder.Services.AddControllers();
             builder.Services.AddIdentityServices(builder.Configuration);
             builder.Services.AddScoped<TokenService>();
+            builder.Services.AddHttpContextAccessor();
+            builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
             builder.Services.AddInfrastructure();
 
 
