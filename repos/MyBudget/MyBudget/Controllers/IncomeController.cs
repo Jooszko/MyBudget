@@ -20,10 +20,10 @@ namespace MyBudget.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllIncomes()
+        public async Task<IActionResult> GetAllIncomes([FromQuery] IncomeQueryParamsDto q)
         {
             var userId = _currentUserService.UserId;
-            var result = await _incomeService.GetAllAsync(userId);
+            var result = await _incomeService.GetAllAsync(userId, q);
 
             return Ok(result);
         }

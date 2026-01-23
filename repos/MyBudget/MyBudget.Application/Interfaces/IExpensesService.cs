@@ -9,7 +9,7 @@ namespace MyBudget.Application.Interfaces
 {
     public interface IExpensesService
     {
-        Task<IReadOnlyList<ExpenseDto>> GetAllAsync(Guid userId);
+        Task<IReadOnlyList<ExpenseDto>> GetAllAsync(Guid userId, ExpenseQueryParamsDto query);
         Task<ExpenseDto> AddAsync(Guid userId, CreateExpenseDto createExpenseDto);
         Task<ExpenseDto> GetAsync(Guid userId, Guid expenseId);
         Task DeleteAsync(Guid userId, Guid expenseId);

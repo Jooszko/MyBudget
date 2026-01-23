@@ -10,11 +10,10 @@ namespace MyBudget.Application.Interfaces
 {
     public interface IIncomeService
     {
-        Task<IReadOnlyList<IncomeDto>> GetAllAsync(Guid userId);
+        Task<IReadOnlyList<IncomeDto>> GetAllAsync(Guid userId, IncomeQueryParamsDto q);
         Task<IncomeDto> GetAsync(Guid userId, Guid IncomeId);
         Task<IncomeDto> AddAsync(Guid userId, CreateIncomeDto dto);
         Task<IncomeDto> UpdateAsync(Guid userId, Guid incomeId, UpdateIncomeDto dto);
         Task DeleteAsync(Guid userId, Guid incomeId);
-
     }
 }

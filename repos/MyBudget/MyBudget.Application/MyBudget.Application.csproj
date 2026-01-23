@@ -10,4 +10,8 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Dtos\ExpenseDtos\ExpenseQueryParamsDto.cs" />
+  </ItemGroup>
+
 </Project>
