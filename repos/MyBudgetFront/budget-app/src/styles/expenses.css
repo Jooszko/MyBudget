@@ -1,0 +1,176 @@
+.expense-form-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.expense-form {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end; 
+  flex-wrap: wrap;
+}
+
+.form-group-inline {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+  min-width: 150px;
+}
+
+.form-group-inline label {
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group-inline input, 
+.form-group-inline select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.add-btn {
+  padding: 10px 25px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 42px;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+.table-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th, 
+.custom-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.custom-table th {
+  color: #888;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.custom-table tr:last-child td {
+  border-bottom: none;
+}
+
+.badge {
+  background-color: #e9ecef;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  color: #495057;
+}
+
+.save-btn {
+  padding: 10px 25px;
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 42px;
+}
+.save-btn:hover { background-color: #e0a800; }
+
+
+.cancel-btn {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.cancel-btn:hover { background-color: #f8f9fa; }
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 5px;
+  transition: transform 0.2s;
+  margin: 0 5px;
+}
+
+.action-btn:hover {
+  transform: scale(1.2);
+}
+
+.edit-btn {
+  color: #007bff; 
+}
+
+.delete-btn {
+  color: #dc3545;
+}
+
+.sidebar-link-active {
+  color: white !important;
+  font-weight: bold;
+}
+
+.expense-form-card.editing-mode {
+  border: 2px solid #ffc107;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group-grow {
+  flex-grow: 2;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.editing-row {
+  background-color: #fff3cd;
+}
+
+.amount-cell-expense {
+  text-align: right;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px;
+}

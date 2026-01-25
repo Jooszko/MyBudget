@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget\\MyBudget.csproj": {}
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget\\MyBudget.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj",
         "projectName": "MyBudget.Infrastructure",
-        "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\DESKTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\Infrastructure\\obj\\",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DESKTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj": {
-                "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj"
               },
-              "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj": {
-                "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj"
               }
             }
           }
@@ -45,13 +41,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -94,25 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj",
         "projectName": "MyBudget.Application",
-        "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj",
-        "packagesPath": "C:\\Users\\DESKTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Application\\obj\\",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Application\\MyBudget.Application.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DESKTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,13 +118,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -159,25 +139,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj",
         "projectName": "MyBudget.Domain",
-        "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj",
-        "packagesPath": "C:\\Users\\DESKTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget.Domain\\obj\\",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Domain\\MyBudget.Domain.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DESKTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,13 +173,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -224,25 +194,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget\\MyBudget.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget\\MyBudget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget\\MyBudget.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget\\MyBudget.csproj",
         "projectName": "MyBudget",
-        "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget\\MyBudget.csproj",
-        "packagesPath": "C:\\Users\\DESKTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\MyBudget\\obj\\",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget\\MyBudget.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\MyBudget\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DESKTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -256,8 +222,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\git\\MyBudget\\repos\\MyBudget\\Infrastructure\\MyBudget.Infrastructure.csproj"
               }
             }
           }
@@ -266,13 +232,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -312,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

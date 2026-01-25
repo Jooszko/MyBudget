@@ -10,3 +10,15 @@ C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\refint\M
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.pdb
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\ref\MyBudget.Domain.dll
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.sourcelink.json
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\bin\Debug\net8.0\MyBudget.Domain.deps.json
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\bin\Debug\net8.0\MyBudget.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\bin\Debug\net8.0\MyBudget.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.AssemblyInfoInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.AssemblyInfo.cs
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.csproj.CoreCompileInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.sourcelink.json
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\refint\MyBudget.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\MyBudget.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Domain\obj\Debug\net8.0\ref\MyBudget.Domain.dll

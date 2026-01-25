@@ -64,7 +64,6 @@ namespace MyBudget
                 });
             });
 
-            // Add services to the container.
             builder.Services.AddRazorPages();
 
             var app = builder.Build();
@@ -75,15 +74,18 @@ namespace MyBudget
                 app.UseSwaggerUI();
             }
 
-            app.MapControllers();
+            
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
+            app.UseCors("CorsPolicy");
+
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.MapControllers();
             app.MapRazorPages();
 
             app.Run();
