@@ -10,6 +10,7 @@ namespace MyBudget.Application.Dtos.ExpenseDtos
         Guid Id,
         Guid CategoryId,
         decimal Amount,
+        string CurrencyCode,
         DateTime Date,
         string? Note
     );

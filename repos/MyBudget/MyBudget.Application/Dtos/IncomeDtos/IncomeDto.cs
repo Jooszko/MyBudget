@@ -11,6 +11,7 @@ namespace MyBudget.Application.Dtos.IncomeDtos
         Guid Id,
         Guid UserId,
         decimal Amount,
+        string CurrencyCode,
         DateTime Date,
         string Source
     );

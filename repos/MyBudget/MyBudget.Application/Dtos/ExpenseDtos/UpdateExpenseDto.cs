@@ -8,9 +8,10 @@ namespace MyBudget.Application.Dtos.ExpenseDtos
 {
     public class UpdateExpenseDto
     {
-        public string CategoryName { get; set; }
-        public decimal Amount { get; set; }
-        public DateTime Date { get; set; }
+        public string? CategoryName { get; set; }
+        public decimal? Amount { get; set; }
+        public string? CurrencyCode { get; set; }
+        public DateTime? Date { get; set; }
         public string? Note { get; set; }
     }
 }

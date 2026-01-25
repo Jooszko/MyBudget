@@ -8,8 +8,9 @@ namespace MyBudget.Application.Dtos.IncomeDtos
 {
     public class UpdateIncomeDto
     {
-        public decimal Amount { get; set; }
-        public DateTime Date { get; set; }
-        public string Source { get; set; }
+        public decimal? Amount { get; set; }
+        public string CurrencyCode {  get; set; }
+        public DateTime? Date { get; set; }
+        public string? Source { get; set; }
     }
 }

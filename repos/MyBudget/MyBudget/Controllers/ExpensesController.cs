@@ -25,10 +25,10 @@ namespace MyBudget.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllExpenses()
+        public async Task<IActionResult> GetAllExpenses([FromQuery] ExpenseQueryParamsDto query)
         {
             var userId = _currentUserService.UserId;
-            return Ok(await _expensesService.GetAllAsync(userId));
+            return Ok(await _expensesService.GetAllAsync(userId, query));
         }
 
         [HttpGet("{id:guid}")]
@@ -53,6 +53,14 @@ namespace MyBudget.Controllers
             var userId = _currentUserService.UserId;
             await _expensesService.DeleteAsync(userId, id);
             return NoContent();
+        }
+
+        [HttpPut("{expenseId:Guid}")]
+        public async Task<IActionResult> UpdateExpense(Guid expenseId,UpdateExpenseDto dto)
+        {
+            var userId = _currentUserService.UserId;
+            var created = await _expensesService.UpdateAsync(userId, expenseId , dto);
+            return Ok(created);
         }
 
     }
