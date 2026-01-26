@@ -10,3 +10,15 @@ C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyB
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\refint\MyBudget.Application.dll
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.pdb
 C:\Users\DESKTOP\source\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\ref\MyBudget.Application.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\bin\Debug\net8.0\MyBudget.Application.deps.json
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\bin\Debug\net8.0\MyBudget.Application.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\bin\Debug\net8.0\MyBudget.Application.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.AssemblyInfoInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.AssemblyInfo.cs
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.csproj.CoreCompileInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.sourcelink.json
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\refint\MyBudget.Application.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\MyBudget.Application.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\git\MyBudget\repos\MyBudget\MyBudget.Application\obj\Debug\net8.0\ref\MyBudget.Application.dll
