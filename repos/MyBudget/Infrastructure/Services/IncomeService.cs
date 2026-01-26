@@ -21,6 +21,7 @@ namespace MyBudget.Infrastructure.Services
             _context = context;
         }
 
+
         public async Task<IReadOnlyList<IncomeDto>> GetAllAsync(Guid userId)
         {
             var incomes = await _context.Incomes.AsNoTracking().Where(i=>i.UserId==userId)
