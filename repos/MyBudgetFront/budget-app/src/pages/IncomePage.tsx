@@ -82,7 +82,7 @@ const IncomePage = () => {
     setEditingId(null);
     reset({
       source: "",
-      amount: undefined,
+      amount: 0,
       date: new Date().toISOString().split('T')[0]
     });
   };

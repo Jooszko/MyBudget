@@ -174,3 +174,8 @@
   text-align: center;
   padding: 20px;
 }
+
+.sidebar button{
+  width: 100%;
+  text-align: center;
+}

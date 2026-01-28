@@ -104,37 +104,25 @@ namespace MyBudget.Infrastructure.Services
             return result;
         }
 
-        public async Task<ExpenseDto> UpdateAsync(Guid userId, Guid expenseId, UpdateExpenseDto dto)
+        public async Task UpdateAsync(Guid userId, UpdateExpenseDto dto)
         {
+
             var expense = await _context.Expenses
-                .FirstOrDefaultAsync(e => e.UserId == userId && e.Id == expenseId);
+                .FirstOrDefaultAsync(e => e.Id == dto.Id && e.UserId == userId);
 
             if (expense == null)
-                throw new NotFoundException("Expense not found");
-
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(c => c.UserId == userId && c.Name == dto.CategoryName);
-
-            if (category == null)
             {
-                var created = await _categoryService.AddAsync(userId, new CreateCategoryDto { Name = dto.CategoryName });
-                category = await _context.Categories.FirstAsync(c => c.Id == created.Id);
+                throw new Exception("Expense not found or access denied.");
             }
 
-            expense.CategoryId = category.Id;
             expense.Amount = dto.Amount;
             expense.Date = dto.Date;
             expense.Note = dto.Note;
+            expense.CategoryId = dto.CategoryId;
 
+            _context.Expenses.Update(expense);
             await _context.SaveChangesAsync();
-
-            return new ExpenseDto(
-                expense.Id,
-                expense.CategoryId,
-                expense.Amount,
-                expense.Date,
-                expense.Note
-            );
         }
+
     }
 }

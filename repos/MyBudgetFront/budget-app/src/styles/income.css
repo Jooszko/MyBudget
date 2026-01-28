@@ -101,3 +101,8 @@
   font-weight: bold;
   color: #28a745;
 }
+
+.sidebar button{
+  width: 100%;
+  text-align: center;
+}

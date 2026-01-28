@@ -101,7 +101,7 @@ const ExpensesPage = () => {
   const resetForm = () => {
     setEditingId(null);
     reset({
-      amount: undefined,
+      amount: 0,
       note: "",
       date: new Date().toISOString().split('T')[0]
     });

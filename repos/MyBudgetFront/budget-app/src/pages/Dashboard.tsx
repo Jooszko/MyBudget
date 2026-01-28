@@ -155,7 +155,7 @@ const Dashboard = () => {
         <div className="widgets-area">
           
           <div className="widget-card">
-            <h3>Struktura wydatków</h3>
+            <h3>Twoje wydatki</h3>
             <div className="chart-wrapper">
               {chartData.length > 0 ? (
                 <ResponsiveContainer width="100%" height="100%">

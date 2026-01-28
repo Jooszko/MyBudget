@@ -13,6 +13,6 @@ namespace MyBudget.Application.Interfaces
         Task<ExpenseDto> AddAsync(Guid userId, CreateExpenseDto createExpenseDto);
         Task<ExpenseDto> GetAsync(Guid userId, Guid expenseId);
         Task DeleteAsync(Guid userId, Guid expenseId);
-        Task<ExpenseDto> UpdateAsync(Guid userId, Guid expenseId, UpdateExpenseDto dto);
+        Task UpdateAsync(Guid userId, UpdateExpenseDto dto);
     }
 }

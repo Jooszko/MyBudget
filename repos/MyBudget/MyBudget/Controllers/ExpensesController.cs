@@ -55,6 +55,24 @@ namespace MyBudget.Controllers
             return NoContent();
         }
 
+
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateExpense([FromBody] UpdateExpenseDto dto)
+        {
+            var userId = _currentUserService.UserId;
+
+            try
+            {
+                await _expensesService.UpdateAsync(userId, dto);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
     }
 
 }
